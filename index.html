@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Holisting App Performance Measurement</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Measuring App Performance</h2>
+          <p>Holistic view of BUS & FE & BE performance</p>
+        </section>
+
+        <section>
+          <h2>General ways to test performance</h2>
+          <ul>
+            <li>Measure performance with JMeter</li>
+            <li>Lighthouse</li>
+            <li>Monitoring like Dynatrace etc</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>But What About Whole Process Measurement</h2>
+          <p>To track the trend BUS & FE & BE are going together</p>
+          <p>And identify process regressions early</p>
+        </section>
+
+        <section>
+          <h2>Suggested Approach</h2>
+          <p>Run e2e scenarios to validate real-world performance</p>
+          <p>
+            And keep track if user path to go trough app is going to take longer
+          </p>
+        </section>
+
+        <section>
+          <h2>Suggested Tooling</h2>
+          <ul>
+            <li>Measure scenario times with Cypress or Playwright</li>
+            <li>Collect e2e tests daily times</li>
+            <li>Ensure scenarios remain unchanged for accurate comparisons</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Or maybe you have a better idea</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script>
+      Reveal.initialize();
+    </script>
+  </body>
+</html>
